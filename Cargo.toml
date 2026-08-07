@@ -1,0 +1,12 @@
+[package]
+name = "otto-osss"
+version = "0.1.0"
+edition = "2021"
+description = "Otto Secure State Service (OSSS) contract-first state layer"
+license = "UNLICENSED"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1.0"
